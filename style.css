@@ -14,3 +14,9 @@ body{
     align-items: center;
     background: rgba(255, 85, 0, 0.548);
 }
+.container{
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
