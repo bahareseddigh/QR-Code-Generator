@@ -7,3 +7,10 @@
     box-sizing: border-box;
     font-family: 'Noto Sans Arabic' , Tahoma;
 }
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 85, 0, 0.548);
+}
