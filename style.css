@@ -20,3 +20,6 @@ body{
     border-radius: 10px;
     padding: 30px;
 }
+.container .info h1{
+    font-family: 'Lalezar' , Tahoma;
+}
