@@ -43,7 +43,12 @@ body{
     padding: 10px;
     font-size: 16px;
 }
-
+.container .qr-code{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+}
 
 
 
