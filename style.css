@@ -29,6 +29,9 @@ body{
 .container form button{
     cursor: pointer;
 }
+.container form input{
+    border: 1px solid #999;
+}
 .container form :where(input , button){
     outline: 0;
     border: 0;
