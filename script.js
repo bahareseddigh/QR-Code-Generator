@@ -8,4 +8,10 @@ generateBtn.addEventListener('click' , () => {
     if(!qrValue){
         return alert('لطفا یه متن یا آدرس داخل کادر وارد کن!')
     }
+    generateBtn.innerText = 'در حال دریافت QR Code ...'
+    qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrValue}`
+    qrImage.addEventListener('load' , () => {
+        qrCodeBox.classList.remove('hidden')
+        generateBtn.innerText = 'تولید QR Code'
+    })
 })
