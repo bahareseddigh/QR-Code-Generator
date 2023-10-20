@@ -15,3 +15,8 @@ generateBtn.addEventListener('click' , () => {
         generateBtn.innerText = 'تولید QR Code'
     })
 })
+qrInput.addEventListener('keyup' , () => {
+    if(!qrInput.value){
+        qrCodeBox.classList.add('hidden')
+    }
+})
