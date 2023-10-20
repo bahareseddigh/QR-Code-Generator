@@ -22,6 +22,10 @@ body{
 }
 .container .info h1{
     font-family: 'Lalezar' , Tahoma;
+    text-align: center;
+}
+.container .info p{
+    text-align: center;
 }
 .container form{
     margin: 15px 0 25px;
